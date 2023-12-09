@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="HelloWorld" extends="Scene"> 
+  <script type="text/brightscript" uri="pkg:/components/helloworld.brs" />
+	<children>
+    	<Label id="myLabel" 
+			text="Hello World!"
+			width="1280" 
+			height="720" 
+			horizAlign="center"
+			vertAlign="center"
+      	/>
+        <Button
+			id = "button01"
+			text = "Button 01"
+			showFocusFootprint = "true"
+			translation = "[300,300]"
+			minWidth = "240" />
+        <Button
+			id = "button02"
+			text = "Button 02"
+			showFocusFootprint = "true"
+			translation = "[500,200]"
+			minWidth = "240" />
+		<ButtonGroup id="buttonGroup01" />
+		<ButtonGroup id="buttonGroup02" />
+    </children>
+</component>

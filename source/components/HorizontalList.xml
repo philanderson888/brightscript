@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="HorizontalList" extends="Group"> 
+  <script type="text/brightscript" uri="pkg:/components/HorizontalList.brs" />
+	<children>
+    </children>
+</component>
